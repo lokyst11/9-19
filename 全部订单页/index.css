@@ -1,0 +1,301 @@
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px !important;
+  }
+}
+@media screen and (max-width: 319px) {
+  html {
+    font-size: 32px !important;
+  }
+}
+body {
+  width: 10rem;
+  margin: 0 auto;
+  font-size: 0.32rem !important;
+  background-color: #ccc;
+}
+a {
+  text-decoration: none;
+}
+li {
+  list-style: none;
+}
+.dingdan {
+  height: 1.33333333rem;
+  background-color: #106035;
+  display: flex;
+  align-items: center;
+}
+.dingdan span {
+  text-align: center;
+  font-size: 0.37333333rem;
+  color: #fff;
+  margin-left: 4.18666667rem;
+}
+.dingdan .box2 {
+  display: flex;
+  height: 0.53333333rem;
+  width: 0.53333333rem;
+  border-radius: 50%;
+  border: 0.02666667rem solid #fff;
+  margin-left: 2.85333333rem;
+  align-items: center;
+  justify-content: space-around;
+  position: relative;
+}
+.dingdan .box2 .xbox {
+  height: 0.08rem;
+  width: 0.08rem;
+  border-radius: 50%;
+  background-color: #fff;
+}
+.dingdan .box2 .five {
+  width: 0.2rem;
+  height: 0.2rem;
+  border-radius: 50%;
+  background-color: red;
+  position: absolute;
+  font-size: 0.16rem;
+  color: #fff;
+  text-align: center;
+  line-height: 0.2rem;
+  top: -0.06666667rem;
+  right: -0.06666667rem;
+}
+.dingdan .box3 {
+  height: 0.58666667rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.dingdan .box3 .jbox {
+  width: 0.09333333rem;
+  height: 0.09333333rem;
+  border-radius: 50%;
+  background-color: #fff;
+  margin-left: 0.37333333rem;
+  margin-right: 0.33333333rem;
+}
+.nav_1 {
+  display: flex;
+  height: 0.92rem;
+  align-items: center;
+  background-color: #0a844c;
+}
+.nav_1 a {
+  display: flex;
+  flex: 20%;
+  flex-direction: column;
+  margin-left: 0.53333333rem;
+  font-size: 0.29333333rem;
+  color: #fff;
+}
+.nav_1 .cu {
+  font-size: 0.34666667rem;
+  color: #c0e17b;
+}
+.shangpin {
+  background-color: #f6f6f6;
+  padding: 0.25333333rem 0.25333333rem 0;
+  overflow: hidden;
+}
+.shangpin .shangdian {
+  font-size: 0.29333333rem;
+  color: #646464;
+  background-color: #fff;
+  padding: 0.26666667rem 0.25333333rem 0;
+  margin-bottom: 0.13333333rem;
+  border-radius: 0.13333333rem;
+  box-shadow: 0.02666667rem 0.02666667rem 0.06666667rem 0.01333333rem #ccc;
+}
+.shangpin .shangdian .fukuan {
+  display: flex;
+  justify-content: space-between;
+  height: 0.58666667rem;
+  border-bottom: 0.01333333rem solid #b1b1b1;
+}
+.shangpin .shangdian .fukuan img {
+  width: 0.26666667rem;
+  vertical-align: middle;
+}
+.shangpin .shangdian .fukuan span {
+  color: #f26b1a;
+}
+.shangpin .shangdian .fukuan .green {
+  color: #0a844c;
+}
+.shangpin .shangdian .box {
+  display: flex;
+  padding-top: 0.21333333rem;
+}
+.shangpin .shangdian .box .imgs img {
+  width: 3.25333333rem;
+  height: 2.32rem;
+  box-shadow: 0.02666667rem 0.02666667rem 0.06666667rem 0.01333333rem #ccc;
+}
+.shangpin .shangdian .box .dbox {
+  display: flex;
+  justify-content: space-between;
+  width: 5.58666667rem;
+}
+.shangpin .shangdian .box .dbox .jieshao {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.48rem;
+  width: 3.70666667rem;
+}
+.shangpin .shangdian .box .dbox .jieshao .js span {
+  font-size: 0.32rem;
+}
+.shangpin .shangdian .box .dbox .jieshao .ks {
+  display: flex;
+  width: 0.90666667rem;
+  height: 0.4rem;
+  border-radius: 25%;
+  background-color: #c0e17b;
+  margin-top: 0.18666667rem;
+}
+.shangpin .shangdian .box .dbox .jieshao .ks span {
+  margin-left: 0.13333333rem;
+  font-size: 0.26666667rem;
+  color: #fff;
+}
+.shangpin .shangdian .box .dbox .jieshao .huodong {
+  margin-top: 0.26666667rem;
+}
+.shangpin .shangdian .box .dbox .jieshao .huodong span {
+  background-color: #fff7ec;
+  color: #ffac36;
+  font-size: 0.21333333rem;
+}
+.shangpin .shangdian .box .dbox .jieshao .huodong span:nth-child(2) {
+  background-color: #fff;
+  color: #747474;
+  margin-left: 0.32rem;
+}
+.shangpin .shangdian .box .dbox .kshu {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.shangpin .shangdian .box .dbox .kshu .yen span {
+  font-size: 0.34666667rem;
+  color: #f26b1a;
+  font-weight: 550;
+}
+.shangpin .shangdian .box .dbox .kshu .yen .hui {
+  color: #646464;
+}
+.shangpin .shangdian .box .dbox .kshu .shu span {
+  color: #646464;
+  font-size: 0.34666667rem;
+}
+.shangpin .shangdian .yunfei {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0.16rem;
+  height: 0.61333333rem;
+  border-top: 0.01333333rem solid #d0d0d0;
+  border-bottom: 0.01333333rem solid #d0d0d0;
+  padding: 0.2rem 0 0;
+}
+.shangpin .shangdian .yunfei img {
+  width: 0.26666667rem;
+  vertical-align: middle;
+}
+.shangpin .shangdian .heji {
+  padding: 0.26666667rem 0 0;
+}
+.shangpin .shangdian .heji .gao {
+  display: flex;
+  justify-content: space-between;
+  width: 8.98666667rem;
+}
+.shangpin .shangdian .heji .gao .hj {
+  height: 0.58666667rem;
+}
+.shangpin .shangdian .heji .gao .hj img {
+  width: 0.26666667rem;
+  vertical-align: middle;
+}
+.shangpin .shangdian .heji .gao .hj3 {
+  display: flex;
+}
+.shangpin .shangdian .heji .gao .hj3 span {
+  color: #f3742c;
+}
+.shangpin .shangdian .heji .gao .hj3 span:nth-child(2) {
+  font-weight: 700;
+  font-size: 0.34666667rem;
+}
+.shangpin .shangdian .gao1 {
+  display: flex;
+  justify-content: flex-end;
+  width: 8.98666667rem;
+  height: 0.8rem;
+  padding-bottom: 0.13333333rem;
+  background-color: #fff;
+}
+.shangpin .shangdian .gao1 .dfukuan {
+  width: 1.8rem;
+  height: 0.56rem;
+  background-color: #c0e17b;
+  text-align: center;
+  border-radius: 0.13333333rem;
+}
+.shangpin .shangdian .gao1 .dfukuan span {
+  color: #fff;
+  font-weight: normal;
+  font-size: 0.34666667rem;
+}
+.nav_2 {
+  display: flex;
+  height: 1.53333333rem;
+  width: 10rem;
+  background-color: #fff;
+  bottom: 0;
+  position: fixed;
+  align-items: center;
+}
+.nav_2 a {
+  display: flex;
+  flex: 20%;
+  flex-direction: column;
+  align-items: center;
+  color: #6e6e6e;
+}
+.nav_2 a div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+.nav_2 a div img {
+  height: 0.45333333rem;
+}
+.nav_2 a div .gs {
+  display: none;
+}
+.nav_2 a span {
+  font-size: 0.32rem;
+}
+.nav_2 a.cur {
+  color: green;
+}
+.nav_2 a.cur div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 0.66666667rem;
+  height: 0.66666667rem;
+}
+.nav_2 a.cur div img {
+  height: 0.45333333rem;
+}
+.nav_2 a.cur div .im {
+  display: none;
+}
+.nav_2 a.cur div .gs {
+  display: block;
+}
