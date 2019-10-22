@@ -1,0 +1,422 @@
+@media screen and (min-width: 750px) {
+  html {
+    font-size: 75px!important;
+  }
+}
+@media screen and (max-width: 319px) {
+  html {
+    font-size: 32px!important;
+  }
+}
+input {
+  outline: 0;
+  border: 0;
+}
+i,
+em {
+  font-style: normal;
+}
+body {
+  font-size: 0.32rem !important;
+  width: 10rem;
+  margin: 0 auto;
+}
+body .w {
+  position: relative;
+}
+body .w header {
+  position: fixed;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  width: 10rem;
+  height: 1.65333333rem;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+body .w header .fl {
+  position: relative;
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  margin-left: 0.32rem;
+  border-radius: 50%;
+  border: 0.02666667rem solid #fff;
+}
+body .w header .fl span {
+  position: absolute;
+  top: 0.13333333rem;
+  left: 0.18666667rem;
+  transform: rotate(-45deg);
+  display: inline-block;
+  width: 0.21333333rem;
+  height: 0.21333333rem;
+  border-top: 0.02666667rem solid #fff;
+  border-left: 0.02666667rem solid #fff;
+}
+body .w header .middle {
+  font-size: 0.4rem;
+  color: #fff;
+  margin-left: 3.30666667rem;
+}
+body .w header .fr {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  margin-left: 2.8rem;
+  border-radius: 50%;
+  border: 0.02666667rem solid #fff;
+}
+body .w header .fr .one {
+  width: 0.08rem;
+  height: 0.08rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+body .w header .fr .wu {
+  color: #fff;
+  font-size: 0.16rem;
+  position: absolute;
+  top: -0.08rem;
+  right: -0.04rem;
+  width: 0.21333333rem;
+  height: 0.21333333rem;
+  border-radius: 50%;
+  background-color: #f00;
+  line-height: 0.21333333rem;
+  text-align: center;
+}
+body .w header .right {
+  width: 0.13333333rem;
+  height: 0.58666667rem;
+  margin-left: 0.33333333rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+}
+body .w header .right div {
+  width: 0.09333333rem;
+  height: 0.09333333rem;
+  background-color: #fff;
+  border-radius: 50%;
+}
+body .w .top {
+  position: relative;
+  box-sizing: border-box;
+  height: 4.72rem;
+  padding: 1.92rem 0.32rem 0;
+  background-color: #0a844c;
+}
+body .w .top .info {
+  border-radius: 0.13333333rem;
+  box-sizing: border-box;
+  font-size: 0.32rem;
+  width: 9.33333333rem;
+  height: 1.68rem;
+  background-color: #fff;
+  padding: 0 0.18666667rem;
+}
+body .w .top .info .info_top,
+body .w .top .info .bot {
+  overflow: hidden;
+  border: 0;
+  display: flex;
+  height: 0.82666667rem;
+}
+body .w .top .info .info_top img,
+body .w .top .info .bot img {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  margin-top: 0.10666667rem;
+}
+body .w .top .info .info_top input,
+body .w .top .info .bot input {
+  height: 0.82666667rem;
+  width: 8.98666667rem;
+}
+body .w .top .info .info_top span,
+body .w .top .info .bot span {
+  margin-top: 0.18666667rem;
+}
+body .w .top .info .info_top {
+  border-bottom: 0.01333333rem solid #ccc;
+}
+body .w .top .info .info_top i {
+  display: inline-block;
+  width: 1.66666667rem;
+  height: 0.82666667rem;
+  line-height: 0.82666667rem;
+}
+body .w .top .info .bot i {
+  display: inline-block;
+  width: 2.26666667rem;
+  height: 0.82666667rem;
+  line-height: 0.82666667rem;
+}
+body .w .top .shop {
+  border-top-left-radius: 0.13333333rem;
+  border-top-right-radius: 0.13333333rem;
+  font-size: 0.32rem;
+  box-sizing: border-box;
+  width: 9.33333333rem;
+  position: absolute;
+  bottom: 0;
+  background-color: #fff;
+  height: 0.82666667rem;
+  padding: 0.21333333rem 0.18666667rem;
+}
+body .w .top .shop img {
+  width: 0.53333333rem;
+  height: 0.53333333rem;
+  vertical-align: middle;
+}
+body .w .top .shop span {
+  margin-left: 6.66666667rem;
+}
+body .w .bottom {
+  height: 13.09333333rem;
+  padding: 0 0.32rem;
+  background-color: #f6f6f6;
+}
+body .w .bottom .shangp {
+  background-color: #fff;
+  padding: 0 0.18666667rem;
+}
+body .w .bottom .shangp .one {
+  display: flex;
+  padding: 0.18666667rem 0 0.24rem;
+  border-top: 0.01333333rem solid #ccc;
+}
+body .w .bottom .shangp .one img {
+  width: 2.82666667rem;
+  height: 2.16rem;
+  box-shadow: 0.12rem 0.12rem 0.08rem -0.09333333rem #ccc;
+}
+body .w .bottom .shangp .one .fr {
+  padding: 0.13333333rem 0rem 0 0.45333333rem;
+}
+body .w .bottom .shangp .one .fr .aa {
+  height: 0.50666667rem;
+  font-size: 0.32rem;
+}
+body .w .bottom .shangp .one .fr .aa span {
+  margin-left: 2.26666667rem;
+  color: #f26b1a;
+}
+body .w .bottom .shangp .one .fr .bb {
+  height: 0.57333333rem;
+  font-size: 0.24rem;
+}
+body .w .bottom .shangp .one .fr .bb span {
+  display: inline-block;
+  width: 0.93333333rem;
+  height: 0.4rem;
+  color: #fff;
+  line-height: 0.4rem;
+  text-align: center;
+  background-color: #c0e17b;
+  border-radius: 0.13333333rem;
+}
+body .w .bottom .shangp .one .fr .bb i {
+  margin-left: 4.33333333rem;
+}
+body .w .bottom .shangp .one .fr .cc {
+  height: 0.53333333rem;
+  font-size: 0.21333333rem;
+}
+body .w .bottom .shangp .one .fr .cc span {
+  display: inline-block;
+  width: 1.33333333rem;
+  height: 0.4rem;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  text-align: center;
+  border-radius: 0.13333333rem;
+  color: #ffac36;
+  background-color: #fff7ec;
+}
+body .w .bottom .shangp .two {
+  display: flex;
+  padding: 0.18666667rem 0 0.24rem;
+}
+body .w .bottom .shangp .two img {
+  width: 2.82666667rem;
+  height: 2.16rem;
+  box-shadow: 0.12rem 0.12rem 0.08rem -0.09333333rem #ccc;
+}
+body .w .bottom .shangp .two .fr {
+  padding: 0.13333333rem 0rem 0 0.45333333rem;
+}
+body .w .bottom .shangp .two .fr .aa {
+  height: 0.4rem;
+  font-size: 0.32rem;
+}
+body .w .bottom .shangp .two .fr .aa span {
+  margin-left: 1.2rem;
+  color: #f26b1a;
+}
+body .w .bottom .shangp .two .fr .bb {
+  height: 0.46666667rem;
+  font-size: 0.29333333rem;
+}
+body .w .bottom .shangp .two .fr .bb span {
+  height: 0.4rem;
+}
+body .w .bottom .shangp .two .fr .bb i {
+  font-size: 0.26666667rem;
+  margin-left: 3.97333333rem;
+}
+body .w .bottom .shangp .two .fr .cc {
+  display: inline-block;
+  width: 0.93333333rem;
+  height: 0.4rem;
+  color: #fff;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  text-align: center;
+  background-color: #c0e17b;
+  border-radius: 0.13333333rem;
+}
+body .w .bottom .shangp .two .fr .dd span {
+  display: inline-block;
+  width: 1.33333333rem;
+  height: 0.4rem;
+  margin-top: 0.13333333rem;
+  font-size: 0.24rem;
+  line-height: 0.4rem;
+  text-align: center;
+  border-radius: 0.13333333rem;
+  color: #ffac36;
+  background-color: #fff7ec;
+}
+body .w .bottom .shangp .three {
+  display: flex;
+  justify-content: space-between;
+  font-size: 0.32rem;
+  box-sizing: border-box;
+  border-top: 0.01333333rem solid #ccc;
+  background-color: #fff;
+  width: 9.17333333rem;
+  height: 0.82666667rem;
+  padding: 0.21333333rem 0.18666667rem 0.21333333rem 0.18666667rem;
+}
+body .w .bottom .shangp .three .zuo img {
+  width: 0.4rem;
+  height: 0.4rem;
+  vertical-align: middle;
+}
+body .w .bottom .shangp .three .you span {
+  font-size: 0.21333333rem;
+  color: #f3742c;
+  margin-left: 4.4rem;
+}
+body .w .bottom .shangp .three .you span strong {
+  font-size: 0.32rem;
+  color: #f26b1a;
+}
+body .w .bottom .yunf {
+  margin: 0.26666667rem 0;
+  font-size: 0.32rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 1.89333333rem;
+  padding: 0.21333333rem 0rem 0.21333333rem 0.18666667rem;
+}
+body .w .bottom .yunf .first {
+  height: 0.82666667rem;
+  line-height: 0.82666667rem;
+  border-bottom: 0.01333333rem solid #ccc;
+}
+body .w .bottom .yunf .first img {
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  margin: 0 0.16rem;
+  vertical-align: middle;
+}
+body .w .bottom .yunf .first span {
+  margin-left: 6.8rem;
+}
+body .w .bottom .yunf .second {
+  height: 0.82666667rem;
+  line-height: 0.82666667rem;
+}
+body .w .bottom .yunf .second img {
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  margin: 0 0.16rem;
+  vertical-align: middle;
+}
+body .w .bottom .yunf .second span {
+  margin-left: 3.73333333rem;
+}
+body .w .bottom .youhui {
+  font-size: 0.32rem;
+  box-sizing: border-box;
+  background-color: #fff;
+  height: 1.89333333rem;
+  padding: 0.21333333rem 0rem 0.21333333rem 0.18666667rem;
+}
+body .w .bottom .youhui .five {
+  height: 0.82666667rem;
+  line-height: 0.82666667rem;
+  border-bottom: 0.01333333rem solid #ccc;
+}
+body .w .bottom .youhui .five img {
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  margin: 0 0.16rem;
+  vertical-align: middle;
+}
+body .w .bottom .youhui .five span {
+  margin-left: 5.92rem;
+}
+body .w .bottom .youhui .six {
+  height: 0.82666667rem;
+  line-height: 0.82666667rem;
+}
+body .w .bottom .youhui .six img {
+  width: 0.26666667rem;
+  height: 0.26666667rem;
+  margin: 0 0.16rem;
+  vertical-align: middle;
+}
+body .w .bottom .youhui .six span {
+  margin-left: 5.22666667rem;
+}
+body .w footer {
+  position: fixed;
+  background-color: #fff;
+  bottom: 0;
+  width: 10rem;
+  height: 1.24rem;
+  line-height: 1.24rem;
+  margin-left: 0.32rem;
+  margin-right: 0.32rem;
+}
+body .w footer i {
+  font-size: 0.24rem;
+  color: #f47f39;
+}
+body .w footer span {
+  font-size: 0.42666667rem;
+  font-weight: 700;
+  color: #f26b1a;
+}
+body .w footer del {
+  font-size: 0.26666667rem;
+  color: #838383;
+}
+body .w footer em {
+  width: 2.26666667rem;
+  height: 0.72rem;
+  padding: 0.16rem 0.32rem;
+  border-radius: 0.13333333rem;
+  color: #fff;
+  line-height: 0.72rem;
+  text-align: center;
+  font-size: 0.37333333rem;
+  margin-left: 3.78666667rem;
+  background-color: #0a844c;
+}
